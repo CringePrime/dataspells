@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+
+	background-image: url("../imgs/Background.png");
+	background-repeat: no-repeat;
+	background-size:  cover;
+	
+}
+/* Entire Page */
+.container{
+	
+
+	margin: 0;
+	padding: 0;
+	width:  100vw;
+	height:  100vh;
+	display: grid;
+	border: 0px solid black;
+	grid-template-columns: 13.5% 72.5% 12%;}
+
+
+
+/*Left Side Content*/
+.adbar {
+	display: grid;
+	border: 1px solid black;
+	grid-template-rows: 12%;
+
+}
+
+.homebutton{
+	margin:  auto;
+}
+
+.randombanner{
+	margin:  auto;
+}
+
+.linkbar{
+	margin:  auto;
+}
+
+
+
+
+
+
+
+
+
+/*Central control*/
+.navbar {
+	display: grid;
+	border: 1px solid black;
+	grid-template-rows: 50px;
+	
+	
+}
+
+.navbarlinks {
+	
+	display: grid;
+
+	grid-template-columns: repeat(5, 20%);
+	grid-template-rows: 70px;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+
+
+
+
+
+
+/*Navigational Buttons*/
+
+.tavernbox {
+	background-image: url("../imgs/TavernButton.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.spicybox {
+	background-image: url("../imgs/SpicyButton.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.randombox{
+		background-image: url("../imgs/RandomButton.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.spellbookbox{
+		background-image: url("../imgs/SpellbookButton.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.settingsbox{	background-image: url("../imgs/SettingsButton.png");
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+
+
+
+/*Spell Picker Window*/
+
+.spellpicker {
+	display: grid;
+	grid-template-columns:  repeat(5, 185px);
+	grid-template-rows: 200px 200px 200px 200px 200px;
+    border: 1px solid black;
+    
+
+}
+
+
+
+
+/*Right side content */
+.spellbarcontainer {
+		display: grid;
+	border: 1px solid black;
+	grid-template-rows: 60px 400px;
+
+}
+
+.spellbar {
+	margin:  auto;
+}
+
+.spellbox {
+	margin:  auto;
+}
+
+
+
+
+
